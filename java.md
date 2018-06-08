@@ -3,16 +3,18 @@
 ## Quick notes about java comparator
 
 #### Possible outcomes :
-> -1 : obj1 is bigger than obj2
->  0 : obj1 is equal to obj2
->  1 : obj1 is smaller than obj2
+- -1 : obj1 is bigger than obj2
+-  0 : obj1 is equal to obj2
+-  1 : obj1 is smaller than obj2
 
 #### Swap rules :
->    -1 : Swap
->  0, 1 : No swap
+-   -1 : Swap
+- 0, 1 : No swap
 
 #### Usage :
-    For eg : want to sort with 2 conditions, (i) descending sort based on number (ii) on top of same number do ascending order sort
+For eg : want to sort with 2 conditions, 
+- descending sort based on number
+- on top of same number do ascending order sort
 
 ```
 list.sort((String s1, String s2) -> {
