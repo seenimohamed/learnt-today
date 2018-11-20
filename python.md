@@ -4,7 +4,7 @@
 
 url : https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do
 
-```
+```python
 #Example 1
 def yieldexample() :
     mylist = range(3)
@@ -25,7 +25,7 @@ Result :
 [0, 1, 2]
 ```
 
-```
+```python
 #Example 2
 def yieldexample() :
     mylist = range(3)
